@@ -86,3 +86,22 @@ Le mandat se décline en deux volets :
 • Actualiser l’ensemble des noms de tables, règles métier et variables comportant le préfixe « E3 » afin de les aligner sur l’architecture du nouveau système FX.
 
 Ces travaux permettront de réduire la dépendance à E3CG tout en assurant une transition fluide vers des standards technologiques plus modernes et mieux intégrés à l’écosystème FX.
+
+Activités préparatoires
+	1.	Analyse des impacts sur le système FX
+Examiner de manière approfondie les répercussions qu’aura la modernisation d’ECG sur FX, compte tenu des échanges quotidiens de données entre les deux environnements (voir annexe).
+	2.	Entrevue avec l’équipe ministérielle d’E3
+Le scénario nocturne S10P1, qui traite les chaînes différées COBOL, intègre des données issues d’E2 et d’E3. Une rencontre rapide avec cette équipe s’impose pour leur présenter les incidences prévues sur leurs opérations et leur communiquer un calendrier préliminaire de nos travaux.
+	3.	Rencontre avec le DBA et le modélisateur
+En raison des évolutions technologiques affectant la base de données, une séance de travail dédiée avec le DBA et le modélisateur permettra d’examiner plus en détail les ajustements requis et de définir les orientations techniques.
+
+
+Rencontres avec les parties prenantes
+
+Les règles 04 (système E3) et 46 (système E2) sollicitent plusieurs applications centrales. Il est donc essentiel de rencontrer individuellement chacun des contributeurs afin :
+	•	d’établir un état des lieux de leurs programmes ;
+	•	de confirmer si une migration vers .NET est déjà réalisée, programmée pour une phase ultérieure ou requiert une demande officielle de service.
+
+Intégration à la solution TL
+
+La solution TL doit satisfaire l’ensemble des exigences d’affaires en s’appuyant sur la réutilisation et l’enrichissement de plusieurs solutions existantes à Revenu Québec. Les systèmes énumérés ci-après ont ainsi été désignés comme contributeurs clés.
